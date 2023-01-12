@@ -1,0 +1,11 @@
+// run shell script
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "shell script",
+      "type": "shell",
+      "command": "poetry shell && flask --app main.py --debug run"
+    }
+  ]
+}
